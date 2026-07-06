@@ -267,7 +267,7 @@
             justify-content: center;
             gap: 6rem;
         }
-
+       
         .badge {
             font-family: var(--font-code);
             font-size: 11px;
@@ -311,17 +311,19 @@
         .comp-examples {
             display: flex;
             justify-content: center;
-            gap: 1rem;
+            gap: 3rem;
             margin-top: auto;
         }
 
         .example-item {
             font-family: var(--font-code);
-            font-size: 13px;
+            font-size: 15px;
             color: var(--on-surface-variant);
-            padding: 4px 10px;
+            padding: 15px 10px;
             background: var(--surface-container-high);
             border-radius: 4px;
+            width: 100px;
+            height: 50px;
         }
 
         .anchor-label {
@@ -387,7 +389,7 @@
 
         .learning-card h3 {
             font-family: var(--font-display);
-            font-size: 26px;
+            font-size: 30px;
             font-weight: 700;
             color: var(--on-surface);
             margin-bottom: 0.75rem;
@@ -397,7 +399,7 @@
             display: inline-block;
             padding: 4px 12px;
             font-family: var(--font-code);
-            font-size: 11px;
+            font-size: 15px;
             font-weight: 700;
             border-radius: 4px;
             margin-bottom: 1rem;
@@ -409,7 +411,7 @@
 
         .learning-desc {
             color: var(--on-surface-variant);
-            font-size: 15px;
+            font-size:20px;
         }
 
         /* Organization Section */
@@ -426,17 +428,17 @@
             font-family: var(--font-display);
             font-size: 32px;
             font-weight: 800;
-            color: var(--tertiary);
+            color: var(--bg-grad);
             margin-bottom: 1.25rem;
         }
 
         .org-line {
             height: 4px;
             width: 120px;
-            background: var(--tertiary);
+            background: var(--secondary);
             border-radius: var(--radius-full);
             margin: 0 auto;
-            box-shadow: 0 0 12px var(--tertiary);
+            box-shadow: 0 0 12px var(--primary);
         }
 
         .org-container {
@@ -444,7 +446,7 @@
             grid-template-columns: repeat(12, 1fr);
             gap: 3rem;
             align-items: center;
-            background: var(--grad-tertiary);
+            background: var(--grad-primary);
         }
 
         .org-sidebar-left { grid-column: span 3; }
@@ -468,8 +470,8 @@
         }
 
         .main-folder {
-            background: var(--tertiary-container);
-            color: var(--tertiary);
+            background: var(--bg-grad);
+            color: var(--grad-primary);
             padding: 1.5rem 3rem;
             border-radius: var(--radius-xl);
             display: flex;
